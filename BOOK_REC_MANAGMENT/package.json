@@ -1,0 +1,19 @@
+{
+  "name": "book_rec_managment",
+  "version": "1.0.0",
+  "description": "book rec management API with express and nodejs",
+  "main": "index.js",
+  "scripts": {
+    
+    "start" : "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Dishant",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
