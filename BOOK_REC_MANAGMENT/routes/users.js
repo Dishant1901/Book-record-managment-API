@@ -1,7 +1,7 @@
 const express=require("express");
 
 const { users } = require("../data/users.json");
-
+const {UserModel,BookModel}=require('../models');
 const router= express.Router();
 
 
@@ -168,6 +168,7 @@ router.get("/subscription-details/:id",(req,res)=>{
         else {
             date = new Date(data);
         }
+        
 
         let days = Math.floor(date/(1000 *60 *60 * 24 ));
         console.log("days value is:  ",days);

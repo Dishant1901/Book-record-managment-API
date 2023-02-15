@@ -4,14 +4,15 @@
   "description": "book rec management API with express and nodejs",
   "main": "index.js",
   "scripts": {
-    
-    "start" : "node index.js",
+    "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "author": "Dishant",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.4"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
