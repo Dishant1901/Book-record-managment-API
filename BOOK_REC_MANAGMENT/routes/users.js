@@ -162,7 +162,7 @@ router.get("/subscription-details/:id",(req,res)=>{
     const getDateinDays = (data="")=>{
         let date;
         // ifcurrent date
-        if(date===""){
+        if(data===""){
             date=new Date();
         }
         else {
