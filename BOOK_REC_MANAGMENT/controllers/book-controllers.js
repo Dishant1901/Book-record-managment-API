@@ -12,7 +12,7 @@ exports.getAllBooks = async(req, res)=> {
         });
 
     res.status(200).json({
-        sucess: ture,
+        sucess: true,
         data: books,
     });
     
